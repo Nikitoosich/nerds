@@ -4,84 +4,92 @@
   <meta charset="UTF-8">
   <title>Nёrds - главная</title>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="fonts/symbols-nerds/css/symbols-nerds.css">
 
 </head>
 <body>
 
+
 <!-- Header -->
 
   <header>
     <div class="container">
+      <a class="icon-basket" href="#">Корзина</a>
       <nav>
-        <a class="header-logo" href="index.html" class="logo">Nёrds</a>
         <ul class="menu">
-          <li><a class="active" href="#"></a>Студия</li>
-          <li><a href="#"></a>Клиенты</li>
-          <li><a href="#"></a>Магазин</li>
-          <li><a href="#"></a>Контакты</li>
+          <li><a class="active" href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
-        <a class="icon-basket" href="#">Корзина</a>
       </nav>
+      <a class="header-logo" href="index.html" class="logo"><img src="img/logo.png" width="140" height="56" alt="Nёrds">Nёrds</a>
     </div>
   </header>
 
+
 <!-- Content -->
+
+  <!-- Slider -->
 
   <main>
     <section class="slider">
       <div class="container">
-        <div class="slide">
-          <p class="slide-title">Долго, дорого, скурпулезно.</p>
-          <p class="slide-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+        <div class="slide first">
+          <p class="slide-title">Долго, дорого, скрупулезно.</p>
+          <p class="slide-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
           <a href="#" class="slide-btn">Узнать больше</a>
         </div>
         <div class="slider-controls">
-          <span></span>
-          <span></span>
-          <span></span>
+          <a class="slider-control active"></a>
+          <a class="slider-control"></a>
+          <a class="slider-control"></a>
         </div>
       </div>
     </section>
 
+  <!-- Services block -->
+
     <div class="container">
-      <div class="row">
+      <div class="row services">
         <div class="col col1">
-          <div class="work">
+          <div class="service">
             <div class="img-wrapper"><img src="img/sites.jpg" alt="Сайты"></div>
-            <h3 class="work-title">Веб-сайты</h3>
-            <p class="work-text">Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
-            <a href="#" class="work-btn sites">Заказать</a>
+            <h3 class="service-title">Веб-сайты</h3>
+            <p class="service-text">Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
+            <a href="#" class="service-btn sites">Заказать</a>
           </div>
         </div>
 
         <div class="col col1">
-          <div class="work">
+          <div class="service">
             <div class="img-wrapper"><img src="img/apps.jpg" alt="Приложения"></div>
-            <h3 class="work-title">Приложения</h3>
-            <p class="work-text">Покорите топ-10 приложений в AppStrore и Google Play</p>
-            <a href="#" class="work-btn apps">Заказать</a>
+            <h3 class="service-title">Приложения</h3>
+            <p class="service-text">Покорите топ-10 приложений в AppStrore и Google Play</p>
+            <a href="#" class="service-btn apps">Заказать</a>
           </div>
         </div>
 
         <div class="col col1">
-          <div class="work">
+          <div class="service">
             <div class="img-wrapper"><img src="img/presentations.jpg" alt="Презентации"></div>
-            <h3 class="work-title">Презентации</h3>
-            <p class="work-text">Вы даже не подозреваете, насколько вы изумительны!</p>
-            <a href="#" class="work-btn presentations">Заказать</a>
+            <h3 class="service-title">Презентации</h3>
+            <p class="service-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a href="#" class="service-btn presentations">Заказать</a>
           </div>
         </div>
       </div>
 
-      <div class="row">
+  <!-- Info block -->
+
+      <div class="row info">
         <div class="col col2">
-          <div class="index-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</div>
-          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-          <p class="orders-title">Выполняем заказы на разработку:</p>
-          <ul class="orders-list">
+          <p class="info-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p class="info-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+          <p class="list-title">Выполняем заказы на разработку:</p>
+          <ul class="list">
             <li>Веб-сайтов любой сложности</li>
             <li>Мобильных приложений для iOS и Android</li>
             <li>Слайдшоу и видео для корпоративных презентаций</li>
@@ -90,9 +98,9 @@
 
         <div class="col col1">
           <div class="index-logo"></div>
-          <p class="since">Since 2004</p>
-          <p class="orders-title">Как мы работаем:</p>
-          <ul class="orders-list">
+          <p class="since-text">Since 2004</p>
+          <p class="list-title">Как мы работаем:</p>
+          <ul class="list">
             <li>С самоотдачей 146%</li>
             <li>Соблюдая сроки на 100%</li>
             <li>По предоплате 50%</li>
@@ -100,7 +108,9 @@
         </div>
       </div>
 
-      <div class="row">
+<!-- References block -->
+
+      <div class="row references">
         <div class="col col1">
           <a href="http://glukhanko.ru/" class="reference-img" target="_blank"><img src="img/reference-glukhanko.png" alt="Glukhanko">Glukhanko</a>
         </div>
@@ -113,25 +123,25 @@
           <a href="http://barbershop-borodinski.ru/vasilyeva/barbershop/" class="reference-img" target="_blank"><img src="img/reference-barbershop.png" alt="Barbershop Borodinski">Barbershop Borodinski</a>
         </div>
       </div>
-
     </div>
   </main>
 
 
-<!-- Map -->
+<!-- Map & contacts -->
 
   <section class="map">
     <div class="container">
       <div class="col col1">
         <div class="contacts">
-          <p class="contacts-title">Nёrds design studio</p>
-          <p class="contacts-addres">350000, Краснодар, ул. Головатого, 100</p>
+          <p class="contacts-title"><span>Nёrds</span> design studio</p>
+          <p class="contacts-address">350000, Краснодар, ул. Головатого, 100</p>
           <p class="contacts-phone">тел. +7 (861) 275-75-75</p>
           <a href="#" class="contacts-btn">Напишите нам</a>
         </div>
       </div>
     </div>
   </section>
+
 
 <!-- Footer -->
 
